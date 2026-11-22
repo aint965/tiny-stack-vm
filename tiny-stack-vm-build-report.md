@@ -3,8 +3,7 @@
 Faithful interpreter of the tiny stack ISA v1, written from ISA.md and the
 reference VM's semantics: opcode tables, per-step
 checks in ISA order, wrapping 32-bit arithmetic, unsigned DIVU/MODU/LTU,
-shifts masked to 5 bits, PUSH8 sign extension, EXIT low byte, output-limit
-trap 11, output kept before traps.
+shifts masked to 5 bits, PUSH8 sign extension, EXIT low byte, output kept before traps.
 
 ## Verification (practice set, kit scorer)
 
